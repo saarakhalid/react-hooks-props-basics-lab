@@ -3,6 +3,7 @@ import { render, screen } from "@testing-library/react";
 
 import user from "../data/user";
 import App from "../components/App";
+import Link from './Links';
 
 test("renders without errors", () => {
   expect(() => render(<App />)).not.toThrow();
